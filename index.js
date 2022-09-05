@@ -1,7 +1,6 @@
 const PORT = 8000
 const axios = require('axios')
 const cheerio = require('cheerio')
-const { response } = require('express')
 const express = require('express')
 
 const app = express()
