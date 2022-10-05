@@ -14,7 +14,7 @@ app.get('/', function (req , res){
     res.json('This is my webscaper')
 }) //get data
 
-app.get('/results', (req, res) =>{
+app.get('/result', (req, res) =>{
     axios(url)
         .then(response => {
             const html = response.data
